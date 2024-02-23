@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">12-02-Notificaciones</string>
+
+<!--    Parte 1-->
+    <string name="titulo">EJEMPLOS DE NOTIFICACIÓN</string>
+    <string name="basica">Básica</string>
+    <string name="toque">Acción de toque</string>
+    <string name="activity1">Acción </string>
+    <string name="accion">Boton de accion</string>
+    <string name="si">Aceptar</string>
+    <string name="no">Cancelar</string>
+
+<!--    Parte 2-->
+    <string name="cansado">Un poco cansado</string>
+    <string name="respuesta">Respuesta</string>
+<!--    Etiquetas NotificacionActivity-->
+    <string name="peso">Ingresa peso en kilogramos</string>
+    <string name="estatura">Ingresa altura en metros</string>
+    <string name="calcular">Calular</string>
+    <string name="titulo1">Calculo de indice de Masa Corporal(IMC)</string>
+<!--   Etiquetas de formularioActivity -->
+    <string name="titulo2">Registro de cita</string>
+    <string name="nombre">Ingresa nombre(s)</string>
+    <string name="apellidos">Ingresa apellidos(s)</string>
+    <string name="registrar">Registrar</string>
+<!--    Etiquetas InfoActivity-->
+    <string name="titulo3">Informacion sobre IMC</string>
+    <string name="detalle">Para adultos de 20 añor o mas, el IMC se interpreta usando categorias de estado de peso estandar</string>
+    <string name="detalle2">Las Personas obesas y con sobrepeso tienen mas probabilidades de sufrir infartos y accidentes cerebrovasculares</string>
+    <string name="titulo4">EJEMPLOS DE ALARMAS</string>
+    <string name="intent">Abrir intent</string>
+
+</resources>
