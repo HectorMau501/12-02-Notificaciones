@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MusicActivity">
+
+    <TextView
+        android:id="@+id/txtMusic_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="false"
+        android:layout_centerHorizontal="true"
+        android:text="@string/menu1"
+        android:textSize="34sp" />
+
+    <ImageView
+        android:id="@+id/imvMusic_album"
+        android:layout_width="335dp"
+        android:layout_height="490dp"
+        android:layout_below="@id/txtMusic_titulo"
+        android:layout_centerInParent="true"
+        android:background="#2196F3"
+        android:src="@drawable/baseline_android_24"
+        tools:ignore="ImageContrastCheck" />
+
+    <SeekBar
+        android:id="@+id/sbrMusic_seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/LinearLayout"
+        android:layout_alignStart="@id/txtMusic_titulo"
+        android:layout_marginStart="27dp"
+        android:layout_toStartOf="@id/txtMusic_duracion" />
+
+    <TextView
+        android:id="@+id/txtMusic_tiempo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/sbrMusic_seekBar"
+        android:layout_toStartOf="@id/txtMusic_titulo" />
+
+    <TextView
+        android:id="@+id/txtMusic_duracion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/txtMusic_cancion"
+        android:layout_toEndOf="@id/txtMusic_titulo" />
+
+    <TextView
+        android:id="@+id/txtMusic_cancion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/txtMusic_tiempo"
+        android:layout_alignBottom="@id/txtMusic_tiempo"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imbAdelantar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@android:drawable/ic_media_ff" />
+
+        <ImageButton
+            android:id="@+id/imbPausa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@android:drawable/ic_media_pause" />
+
+        <ImageButton
+            android:id="@+id/imbReproducir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@android:drawable/ic_media_play" />
+
+        <ImageButton
+            android:id="@+id/imbRetroceder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@android:drawable/ic_media_rew" />
+    </LinearLayout>
+</RelativeLayout>

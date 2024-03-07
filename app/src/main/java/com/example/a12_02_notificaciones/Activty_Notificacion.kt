@@ -99,6 +99,7 @@ class Activty_Notificacion : AppCompatActivity() {
 
         pendingIntentNo = PendingIntent.getActivity(this,0,accionNO,
             PendingIntent.FLAG_IMMUTABLE)
+
     }//configureActions
 
     //EquivaLENTE EN JAVA: PUBLIC FINAL STATTC
